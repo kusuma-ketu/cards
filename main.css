@@ -5,6 +5,10 @@ body {
 }
 h1 {
     background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20 px;
+    width: 50%;
     font-family: Papyrus;
     color: #333;
 }
@@ -15,6 +19,12 @@ h1 {
     padding: 16px;
     margin: 16px;
     transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-header {
+    color: yellow;
+}
+.card-body {
+    color: pink;
 }
 .card:hover{
     transform: translateY(-5px);
